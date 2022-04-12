@@ -40,6 +40,9 @@ gem "bootsnap", require: false
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
+gem "dotenv"
+gem "env_vars"
+#gem "rails-env"
 
 group :development, :test do
   gem "pry-meta"
@@ -47,7 +50,7 @@ end
 
 group :development do
   gem "rubocop"
-  gem rubocop-rails"
+  gem "rubocop-rails"
   gem "rubocop-performance"
   gem "rubocop-fnando"
 end
